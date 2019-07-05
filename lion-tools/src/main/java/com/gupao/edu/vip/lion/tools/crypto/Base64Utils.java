@@ -6,6 +6,9 @@ import com.gupao.edu.vip.lion.api.Constants;
 
 import java.util.Base64;
 
+/**
+ * base64
+ */
 public class Base64Utils {
 
     /**
