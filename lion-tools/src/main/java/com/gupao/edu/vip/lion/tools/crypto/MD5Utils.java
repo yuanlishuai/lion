@@ -13,6 +13,7 @@ import java.io.InputStream;
 import java.security.MessageDigest;
 
 /**
+ * MD5 utils
  */
 public final class MD5Utils {
     public static String encrypt(File file) {
