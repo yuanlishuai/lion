@@ -14,6 +14,7 @@ import java.util.stream.Collectors;
 import static org.apache.curator.utils.ZKPaths.PATH_SEPARATOR;
 
 /**
+ * zk service  注册和发现
  */
 public final class ZKServiceRegistryAndDiscovery extends BaseService implements ServiceRegistry, ServiceDiscovery {
 
