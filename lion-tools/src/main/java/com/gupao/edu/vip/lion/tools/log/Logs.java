@@ -13,6 +13,8 @@ import org.slf4j.LoggerFactory;
 public interface Logs {
     boolean logInit = init();
 
+
+
     static boolean init() {
         if (logInit) return true;
         System.setProperty("log.home", CC.lion.log_dir);
