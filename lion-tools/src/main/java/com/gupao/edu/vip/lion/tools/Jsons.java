@@ -15,7 +15,6 @@ import java.util.Map;
 /**
  * json
  *
- * json
  */
 public final class Jsons {
     private static final Logger LOGGER = LoggerFactory.getLogger(Jsons.class);
