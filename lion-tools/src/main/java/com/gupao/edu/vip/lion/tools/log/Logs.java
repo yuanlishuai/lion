@@ -8,6 +8,7 @@ import org.slf4j.LoggerFactory;
 
 
 /**
+ * log
  */
 public interface Logs {
     boolean logInit = init();
