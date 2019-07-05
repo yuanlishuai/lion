@@ -2,6 +2,7 @@
 package com.gupao.edu.vip.lion.tools.crypto;
 
 /**
+ * copyException
  */
 public class CryptoException extends RuntimeException {
 
