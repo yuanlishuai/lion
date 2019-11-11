@@ -7,12 +7,6 @@ test init git
 #Tools
 123123123
  
-#zk
-
-1
-
-2
-
 # 4
 #
 * 123
