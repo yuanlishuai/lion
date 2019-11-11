@@ -11,7 +11,6 @@ test init git
 
 1
 
-3
+2
 
 4
-
