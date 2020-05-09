@@ -208,4 +208,9 @@ public final class Utils {
         info.put("queueSize(blockedTask)", queueSize);
         return info;
     }
+
+    public static void main(String[] args) {
+        String inetAddress = getInetAddress(true);
+        System.out.println(inetAddress);
+    }
 }

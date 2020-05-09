@@ -358,4 +358,32 @@ public class ZKClient extends BaseService {
     public CuratorFramework getClient() {
         return client;
     }
+
+    public static void main(String[] args) {
+        int a=2;
+        int b=3;
+        a=a^b;
+        System.out.println("a="+a+",b="+b);
+        b=a^b;
+        System.out.println("a="+a+",b="+b);
+        a=a^b;
+        System.out.println("a="+a+",b="+b);
+        Map<Object, Object> objectObjectHashMap = new HashMap<>();
+        objectObjectHashMap.put("12",12);
+        int c = -1;
+        int d = 1;
+        int e = 0;
+        int i = c & d;
+        System.out.println(i);
+        int i1 = c & e;
+        System.out.println(i1);
+        int i2 = d & e;
+        System.out.println(i2);
+
+        System.out.println();
+       Object key = "yuan";
+        int h;
+        System.out.println((key == null) ? 0 : (h = key.hashCode()) ^ (h >>> 16));
+    }
+
 }
