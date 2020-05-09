@@ -253,6 +253,7 @@
     </dependencies>
 
     <!-- 编译配置 -->
+    <!-- POM中若没有制定打包类型-则默认打包类型为  `jar`   -->
     <build>
         <plugins>
             <plugin>
